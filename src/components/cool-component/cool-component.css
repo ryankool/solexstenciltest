@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+button {
+  border-radius: 0.5em;
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: medium;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button.primary {
+  background-color: aqua;
+  color: yellow;
+}
+button.secondary {
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: aquamarine;
+}
+button:active {
+  background-color: red;
+}
